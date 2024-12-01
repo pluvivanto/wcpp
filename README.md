@@ -56,23 +56,23 @@ WCPP is a C++ version of the original `wc` tool, providing functionality to coun
 
    1. **Manual Installation:**
 
-   After building the project, copy the `wcpp` executable to a directory in your `$PATH`:
-
-   ```bash
-   cp ./build/wcpp /usr/local/bin/
-   ```
-
-   Ensure `/usr/local/bin` is part of your `$PATH`, or choose another directory that is.
+      After building the project, copy the `wcpp` executable to a directory in your `$PATH`:
+   
+      ```bash
+      cp ./build/wcpp /usr/local/bin/
+      ```
+   
+      Ensure `/usr/local/bin` is part of your `$PATH`, or choose another directory that is.
 
    2. **Automated Installation:**
 
-   Use CMake's install feature to install the executable:
-
-   ```bash
-   cmake --install build --prefix /usr/local
-   ```
-
-   This will automatically place the executable in the appropriate directory under `/usr/local`.
+      Use CMake's install feature to install the executable:
+   
+      ```bash
+      cmake --install build --prefix /usr/local
+      ```
+   
+      This will automatically place the executable in the appropriate directory under `/usr/local`.
 
 ## Usage
 
